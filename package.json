@@ -1,0 +1,57 @@
+{
+  "name": "menv-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --ignore 'src/public'",
+    "webpack": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.18.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.1.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.0",
+    "vue-cookies": "^1.7.4",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.4.9",
+    "vuetify": ">=1.0.4",
+    "vuetify-daterange-picker": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.0.1",
+    "deepmerge": "^4.2.2",
+    "nodemon": "^1.17.4",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0"
+  }
+}
